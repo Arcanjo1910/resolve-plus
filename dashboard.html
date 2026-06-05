@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Resolve+</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1>Resolve+</h1>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="nova-reclamacao.html">Nova Reclamação</a></li>
+      <li><a href="reclamacoes.html">Reclamações</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="estatisticas.html">Estatísticas</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page-container">
+
+  <section class="page-title">
+    <span class="tag">Painel Executivo</span>
+    <h2>Dashboard de Reclamações</h2>
+    <p>Visão geral do desempenho do atendimento.</p>
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card">
+      <h3 id="totalReclamacoes">0</h3>
+      <p>Reclamações Totais</p>
+    </div>
+
+    <div class="stat-card warning">
+      <h3 id="emAnalise">0</h3>
+      <p>Em Análise</p>
+    </div>
+
+    <div class="stat-card success">
+      <h3 id="resolvidas">0</h3>
+      <p>Resolvidas</p>
+    </div>
+
+    <div class="stat-card danger">
+      <h3 id="urgentes">0</h3>
+      <p>Urgentes</p>
+    </div>
+
+  </section>
+
+  <section class="quick-navigation">
+
+    <a href="nova-reclamacao.html" class="nav-card">
+      <h3>➕ Nova Reclamação</h3>
+      <p>Registrar um novo chamado.</p>
+    </a>
+
+    <a href="reclamacoes.html" class="nav-card">
+      <h3>📋 Reclamações</h3>
+      <p>Visualizar todas as ocorrências.</p>
+    </a>
+
+    <a href="estatisticas.html" class="nav-card">
+      <h3>📊 Estatísticas</h3>
+      <p>Analisar indicadores do sistema.</p>
+    </a>
+
+    <a href="sobre.html" class="nav-card">
+      <h3>ℹ️ Sobre o Projeto</h3>
+      <p>Documentação e informações técnicas.</p>
+    </a>
+
+  </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>

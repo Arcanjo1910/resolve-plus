@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estatísticas | Resolve+</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1>Resolve+</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="nova-reclamacao.html">Nova Reclamação</a></li>
+      <li><a href="reclamacoes.html">Reclamações</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="estatisticas.html">Estatísticas</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page-container">
+  <section class="page-title">
+    <span class="tag">Análise de Dados</span>
+    <h2>Estatísticas do Atendimento</h2>
+    <p>Visualize os principais indicadores das reclamações registradas.</p>
+  </section>
+
+  <section class="charts-grid">
+    <div class="chart-card">
+      <h3>Reclamações por Categoria</h3>
+      <div class="bar">
+        <span id="statEntrega" style="--valor:0%">Entrega - 0</span>
+      </div>
+
+      <div class="bar">
+        <span id="statProduto" style="--valor:0%">Produto - 0</span>
+      </div>
+
+      <div class="bar">
+        <span id="statPagamento" style="--valor:0%">Pagamento - 0</span>
+      </div>
+
+      <div class="bar">
+        <span id="statAtendimento" style="--valor:0%">Atendimento - 0</span>
+      </div>
+
+      <div class="bar">
+        <span id="statSuporte" style="--valor:0%">Suporte Técnico - 0</span>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <h3>Status Geral</h3>
+      <div class="circle-info">
+        <p><strong id="percResolvidas">0%</strong> Resolvidas</p>
+        <p><strong id="percAnalise">0%</strong> Em análise</p>
+        <p><strong id="percAbertas">0%</strong> Abertas</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
